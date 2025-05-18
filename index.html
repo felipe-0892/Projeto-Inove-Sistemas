@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inove Sistemas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="container py-3 d-flex flex-column flex-lg-row justify-content-between align-items-center">
+        <div class="logo-container">
+            <img src="/img/logo.png" class="logo" alt="Inove Sistemas Logo">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="me-2">
+                <a href="#missao" class="" style="font-size: 18px; text-decoration: none; color: #F5443B;">
+                    Nossas Missões
+                </a>
+            </div>
+            <div class="dropdown">
+                <a style="font-size: 18px; text-decoration: none; color: #F5443B;" class="btn dropdown-toggle"
+                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Quem Somos
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#sobre">Sobre nós</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                            data-bs-target="#equipeModal1">Equipe Projeto Integrador</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                            data-bs-target="#equipeModal2">Equipe Desenvolvimento Web</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contato-container text-center my-3 my-lg-0">
+            <a href="#contato" class="btn btn-danger">Contate-nos</a>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="equipeModal1" tabindex="-1" aria-labelledby="equipeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="equipeModalLabel">Equipe do projeto integrador</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Aluno: Breno Carvalho Cardoso <br> Matrícula: 2220262 <br>
+                                Curso: Sistemas para Internet <br> Período: 5º <br> Professor: Me. Franco Ferreira Maia
+                            </li>
+                            <li class="list-group-item">Aluno: Luciano Santos Neto <br> Matrícula: 2410508 <br> Curso:
+                                Sistemas para Internet <br> Período: 3° <br> Professor: Me. Franco Ferreira Maia </li>
+                            <li class="list-group-item">Aluno: Maria de Fatima da Silva Bezerra <br> Matrícula: 15223023
+                                <br> Curso: Recursos Humanos <br> Período: 4° <br> Professor: Me. Franco Ferreira Maia
+                            </li>
+                            <li class="list-group-item">Aluno: Marina Gabriela Nascimento França <br> Matrícula: 2020102
+                                <br> Curso: Gestão de Tecnologia da Informação <br> Período: 4° <br> Professor: Me.
+                                Franco Ferreira Maia </li>
+                            <li class="list-group-item">Aluno: Rodrigo César Santos de Jesus <br> Matrícula: 2410145
+                                <br> Curso: Sistemas para Internet <br> Período: 3° <br> Professor: Me. Franco Ferreira
+                                Maia </li>
+                            <li class="list-group-item">Aluno: Weslley Ribeiro Souza Santos <br> Matrícula: 2410221 <br>
+                                Curso: Sistemas para Internet <br> Período: 3° <br> Professor: Me. Franco Ferreira Maia
+                            </li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="equipeModal2" tabindex="-1" aria-labelledby="equipeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="equipeModalLabel">Equipe dDesenvolvimento de Interfaces Web</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Aluno: Felipe da Silva Costa <br> Matrícula: 2440097 <br>
+                                Curso: Sistemas para Internet <br> Período: 2º <br> Professor: Bruno Alves Reis Nascimento
+                            </li>
+                            <li class="list-group-item">Aluno: Jonatas Santos Silva  <br> Matrícula: 2420196 <br> Curso:
+                                Sistemas para Internet <br> Período: 2° <br> Professor: Bruno Alves Reis Nascimento </li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero container py-5 d-flex flex-column flex-md-row align-items-center">
+        <div class="me-md-5">
+            <h1>Inove Sistema</h1>
+            <p class="mt-3">
+                É uma plataforma acadêmica inovadora, projetada para oferecer uma organização prática e aplicada, guiada
+                pelos melhores mentores de nível mundial.
+            </p>
+            <a href="#contato" class="btn btn-danger mt-3">Contate-nos</a>
+        </div>
+        <div class="mt-4 mt-md-0 d-none d-md-block">
+            <img src="/img/estudante.png" alt="Estudante">
+        </div>
+    </section>
+
+    <section id="sobre" class="container py-5">
+        <h2>Quem Somos</h2>
+        <p class="mt-3">
+            Nossa empresa nasceu com o propósito de transformar a comunicação escolar. Desenvolvemos um sistema que não
+            apenas atende às necessidades dos pais, mas também auxilia os alunos a se organizarem de forma mais eficaz.
+            Criamos um ambiente colaborativo e integrador entre escola e família, promovendo o engajamento de todos os
+            envolvidos no processo educacional.
+        </p>
+    </section>
+
+    <section id="missao" class="container py-5">
+        <h2>Missão, Visão e Valores</h2>
+        <ul class="mt-3">
+            <li>Desenvolver soluções educacionais inovadoras e acessíveis, conectando professores, alunos e comunidades.
+            </li>
+            <li>Ser líder no mercado de soluções educacionais, com foco em inovação e qualidade.</li>
+            <li>Trabalho em equipe, excelência, integridade e inovação.</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="container py-5">
+        <h2>Contato</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p>
+                    Tem alguma dúvida, sugestão ou deseja saber mais sobre nossos serviços? Fale com a Inove Sistemas!
+                    Você pode nos enviar um e-mail, nos chamar pelas redes sociais ou, se preferir, preencher o
+                    formulário ao lado. Estamos prontos para te atender!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="text" class="form-control" id="telefone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Deixe sua mensagem:</label>
+                        <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Modal Estilizado -->
+        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark text-white">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title" id="successModalLabel"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center" id="modalMessage">
+                        <h4 class="text-danger">Recebemos seu contato!</h4>
+                        <p class="text-danger">
+                            Contato enviado com sucesso, aguarde um de nossos colaboradores entrar em contato com
+                            você.<br>
+                            ${nome}, os contatos e documentos de proposta foram enviados para o e-mail: ${email}
+                        </p>
+                        <h5 class="text-danger">Obrigado</h5>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div>
+                <img src="/img/logo.png" class="logo mb-3" alt="Logo Inove Sistemas">
+                <h6>Algum feedback ou dúvidas?<br>Contate-nos e nos siga nas redes sociais</h6>
+                <a href="#" class="me-3 text-danger fs-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="me-3 text-danger fs-4"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="me-3 text-danger fs-4"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div>
+                <h6 style="color: #F5443B;">Menu</h6>
+                <a href="index.html">Home</a><br>
+                <a href="#sobre">Sobre nós</a><br>
+                <a href="#missao">Missões</a>
+            </div>
+            <div>
+                <h6 style="color: #F5443B;">Serviços</h6>
+                <a href="#">Atualizações</a><br>
+                <a href="#">Mentorias</a><br>
+                <a href="#">E-book grátis</a><br>
+                <a href="#">Encontros</a>
+            </div>
+            <div>
+                <h6 style="color: #F5443B;">Informações</h6>
+                <a href="#">Termos & Condições</a><br>
+                <a href="#">Política de Privacidade</a><br>
+                <a href="#">Trabalhe conosco</a>
+            </div>
+            <div>
+                <h6 style="color: #F5443B;">Apps Download</h6>
+                <a href="#">Google Play Store</a><br>
+                <a href="#">App Store</a>
+            </div>
+        </div>
+        <div class="text-center mt-4">Copyright &copy; 2025 Inove Sistemas. Todos os direitos reservados.</div>
+    </footer>
+    <button id="back-to-top" title="Voltar ao topo"></button>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/back-to-top.js"></script>
+</body>
+
+</html>

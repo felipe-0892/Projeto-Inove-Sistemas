@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'EB Garamond', sans-serif;
+    background-color: #e6e6ee;
+    color: #181938;
+}
+
+
+
+.btn-danger {
+    background-color: #d62828;
+    border: none;
+}
+
+h1 {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 86px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p,
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.modal-content {
+    background-color: #1a1a2e;
+    /* Fundo escuro */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body h4,
+.modal-body p,
+.modal-body h5 {
+    margin: 0.5rem 0;
+}
+
+.modal-body .text-danger {
+    color: #ff2e63;
+    /* Vermelho personalizado */
+}
+
+.btn-close {
+    filter: invert(1);
+    /* Torna o botão de fechar branco */
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #181938;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #181938;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*back to top*/
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #181938;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #ff2e63;
+}
+
+#back-to-top::after {
+    content: "↑";
+}
